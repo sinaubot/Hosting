@@ -11,7 +11,7 @@ print(loggers)
 loggert = logger.setLevel(logging.DEBUG)
 print(loggert)
 
-TOKEN = "667940096:AAHPD6lVQ1yTxRsZi48HXPilfAhVkO3sYhY"
+#TOKEN = ""
 
 import telegram
 bot = telegram.Bot(token= str(TOKEN))
